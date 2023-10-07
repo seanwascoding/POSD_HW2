@@ -10,10 +10,9 @@ dfs_iterator.o: src/dfs_iterator.cpp src/dfs_iterator.h
 	g++ -std=c++11 -c src/dfs_iterator.cpp -o obj/dfs_iterator.o
 
 create_folder:
-	mkdir -p bin obj test_folder test_folder/test_search
-	touch test_folder/test1 test_folder/test2 test_folder/test3 test_folder/test_search/test4
+	mkdir -p bin obj
 
 clean:
-	rm -rf bin obj test_folder
+	rm -rf bin obj
 
 .PHONY: clean
