@@ -93,8 +93,8 @@ public:
     Iterator *createIterator() override
     {
         // return new FolderIterator(this);
-        return new DfsIterator(this);
-        // return new BfsIterator(this);
+        // return new DfsIterator(this);
+        return new BfsIterator(this);
     }
 
 private:

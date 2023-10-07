@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
-#include "dfsiterator_test.h"
-// #include "files_test.h"
+// #include "Iterator_test.h"
+// #include "dfsIterator_test.h"
+#include "bfsIterator_test.h"
 
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);
